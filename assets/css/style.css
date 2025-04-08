@@ -29,12 +29,5 @@ body {
   cursor: default; /* Set default cursor */
 }
 
-/* Curseur personnalisé pour la carte de réalisation */
-.realization-card:hover {
-  cursor: none; /* Masquer le curseur par défaut */
-}
-
-
-.realisation-card .overlay {
-  cursor: none;
-}
+a {color : #D2B48C;
+   text-decoration: underline;}
