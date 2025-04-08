@@ -1,0 +1,40 @@
+.hover-rotate:hover img {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+.realisation-card {
+    position: relative;
+  }
+.realisation-card:hover .card-overlay {
+    opacity: 1;
+  }
+.realisation-card:hover .custom-cursor {
+    display: block;
+  }
+.fixed-s {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    font-size: 30rem;
+    color: rgba(0, 0, 0, 0.05);
+    pointer-events: none;
+  }
+#white-button {
+    color : #000;
+    background-color: #ffffff;
+  }
+/* Custom Cursor */
+body {
+  cursor: default; /* Set default cursor */
+}
+
+/* Curseur personnalisé pour la carte de réalisation */
+.realization-card:hover {
+  cursor: none; /* Masquer le curseur par défaut */
+}
+
+
+.realisation-card .overlay {
+  cursor: none;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steel Créations</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-black text-white font-serif">
+<!-- Logo fixe à droite -->
+<div class="fixed top-1/2 right-0 transform -translate-y-1/2 z-10 opacity-5">
+  <img src="assets/images/logo-big.svg" alt="Logo test"
+       class="w-[80%] max-w-[600px]" />
+</div>
+
+
+
+  <!-- Fixed S -->
+  <div class="fixed-s md:block"><img src="assets/images/logo-steel creations.svg"></div>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen bg-cover bg-center overflow-hidden" style="background-image: url('assets/images/metallerie.webp')">
+
+      <!-- Calque de fond sombre pour meilleure lisibilité -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
+
+  <!-- Ligne supérieure avec téléphone et menu -->
+  <div class="absolute top-4 left-4 text-sm z-10">+33 (0)2 33 34 25 01</div>
+  <div class="absolute top-4 right-4 z-10">
+    <button class="border border-white px-4 py-1 hover:bg-yellow-900 transition" style="border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; display: flex; align-items: center;">
+      MENU
+      <div style="background-color: white; color: black; border-radius: 50%; width: 25px; height: 25px; display: flex; justify-content: center; align-items: center; margin-left: 10px; overflow: hidden;">
+        <img src="assets/images/menu.svg" style="width: 14px; height: 14px; object-fit: contain;" alt="Menu icon">
+      </div>
+    </button>
+  </div>
+  
+
+  <!-- 🔥 LE LOGO ICI : en z-10 pour apparaître par-dessus l’image -->
+  <div class="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 text-white text-lg tracking-wide font-bold">
+    STEEL CRÉATIONS
+  </div>
+
+  <!-- Texte principal -->
+<!-- Texte principal centré verticalement -->
+<div class="absolute top-1/2 left-8 transform -translate-y-1/2 z-10 max-w-md text-white">
+  <h1 class="text-3xl leading-snug">
+    Steel Créations,<br>
+    un atelier<strong> <em>normand</em></strong> dédié<br>
+    à la <em><strong>métallerie</strong></em>
+  </h1>
+</div>
+
+
+  <!-- Bouton devis -->
+  <div class="absolute bottom-24 right-8 z-10">
+    <button class="flex items-center border px-4 py-2 hover-rotate" id="white-button">
+      Demander un devis
+      <img src="assets/images/arrow-small-black.png" alt="Flèche" class="ml-2 w-4 h-4 transition-transform duration-300 group-hover:rotate-90" />
+    </button>
+  </div>
+</section>
+
+<!-- Savoir-faire -->
+<section class="bg-black text-white relative py-24 overflow-hidden">
+  <div class="grid grid-cols-12 gap-4">
+    <!-- Partie gauche : texte principal aligné à gauche écran -->
+    <div class="col-span-12 md:col-span-6 flex justify-start pl-8">
+      <h2 class="text-3xl md:text-4xl leading-snug">
+        Un savoir-faire<br>
+        résolument tourné<br>
+        vers <em><strong>demain...</strong></em>
+      </h2>
+    </div>
+
+    <!-- Partie droite : Lorem + bouton aligné à droite écran -->
+    <div class="col-span-12 md:col-span-6 flex flex-col items-end pr-8 space-y-6">
+      <div class="text-right space-y-4 max-w-xl">
+        <p class="text-sm leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consectetur nunc elit, eu accumsan ante pretium id. Vestibulum in ornare odio. Sed sed posuere purus. Curabitur luctus, dui vel lobortis imperdiet, tellus leo placerat quam, ut pulvinar arcu nisi vel sem.
+        </p>
+        <p class="text-sm leading-relaxed">
+          Suspendisse potenti. Nunc lectus arcu, iaculis vitae nisi id, pretium consectetur sapien. Sed nulla leo, blandit et imperdiet in, posuere sed odio. Ut mollis, finibus condimentum, Suspendisse at elementum urna.
+        </p>
+      </div>
+
+      <!-- Bouton "En savoir +" -->
+      <div class="z-10 self-end">
+        <button class="flex items-center border px-4 py-2 hover-rotate" id="white-button">
+          En savoir +
+          <img src="assets/images/arrow-small-black.png" alt="Flèche" class="ml-2 w-4 h-4 transition-transform duration-300 group-hover:rotate-90" />
+        </button>
+      </div>    
+    </div>
+  </div>
+</section>
+
+  <!-- Réalisations -->
+  <section class="relative bg-white text-black py-20 px-8 overflow-hidden">
+  
+    <!-- Contenu principal -->
+    <div class="relative z-10">
+      <!-- Titre + description -->
+      <div class="grid grid-cols-12 gap-8 mb-12 items-center">
+        <div class="col-span-12 md:col-span-6">
+          <h3 class="text-xl">Nos <em> <strong>réalisations</strong></em></h3>
+        </div>
+        <div class="col-span-12 md:col-span-6 text-sm leading-relaxed">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim eros a justo placerat, vel laoreet erat pretium. Vivamus efficitur mi nec lorem commodo, a elementum nunc eleifend.
+          </p>
+        </div>
+      </div>
+
+    <div class="grid grid-cols-12 gap-4">
+<!-- carte 1 -->
+<div class="relative col-span-12 md:col-span-3 h-96 group overflow-hidden">
+  <!-- Image de fond -->
+  <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('assets/images/real-01.jpg');"></div>
+
+  <!-- Overlay sombre -->
+  <div class="absolute inset-0 bg-black/50 transition-opacity duration-500 group-hover:opacity-70"></div>
+
+  <!-- Cercle "Découvrir" -->
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="w-32 h-32 bg-amber-300 text-white flex items-center justify-center rounded-full text-lg font-light opacity-0 scale-90 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100">
+      Découvrir
+    </div>
+    
+  </div>
+
+  <!-- Titre -->
+  <div class="absolute bottom-4 left-4 text-white text-xl font-light opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    Mobilier
+  </div>
+
+  <!-- Croix -->
+  <div class="absolute top-4 right-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    <img src="assets/images/real-cross.svg" alt="Plus" class="w-6 h-6 text-white" />
+  </div>
+</div>
+
+<!-- carte 2 -->
+<div class="relative col-span-12 md:col-span-3 h-96 group overflow-hidden">
+  <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('assets/images/real-02.jpg');"></div>
+  <div class="absolute inset-0 bg-black/50 transition-opacity duration-500 group-hover:opacity-70"></div>
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="w-32 h-32 bg-amber-300 text-white flex items-center justify-center rounded-full text-lg font-light opacity-0 scale-90 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100">
+      Découvrir
+    </div>
+    
+  </div>
+  <div class="absolute bottom-4 left-4 text-white text-xl font-light opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    Toiture
+  </div>
+  <div class="absolute top-4 right-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    <img src="assets/images/real-cross.svg" alt="Plus" class="w-6 h-6 text-white" />
+  </div>
+</div>
+
+<!-- carte 3 -->
+<div class="relative col-span-12 md:col-span-3 h-96 group overflow-hidden">
+  <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('assets/images/real-03.jpg');"></div>
+  <div class="absolute inset-0 bg-black/50 transition-opacity duration-500 group-hover:opacity-70"></div>
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="w-32 h-32 bg-amber-300 text-white flex items-center justify-center rounded-full text-lg font-light opacity-0 scale-90 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100">
+      Découvrir
+    </div>
+    
+  </div>
+  <div class="absolute bottom-4 left-4 text-white text-xl font-light opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    Mobilier
+  </div>
+  <div class="absolute top-4 right-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    <img src="assets/images/real-cross.svg" alt="Plus" class="w-6 h-6 text-white" />
+  </div>
+</div>
+
+<!-- carte 4 -->
+<div class="relative col-span-12 md:col-span-3 h-96 group overflow-hidden">
+  <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('assets/images/real-04.jpg');"></div>
+  <div class="absolute inset-0 bg-black/50 transition-opacity duration-500 group-hover:opacity-70"></div>
+  <div class="absolute inset-0 flex items-center justify-center">
+    <div class="w-32 h-32 bg-amber-300 text-white flex items-center justify-center rounded-full text-lg font-light opacity-0 scale-90 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100">
+      Découvrir
+    </div>
+    
+  </div>
+  <div class="absolute bottom-4 left-4 text-white text-xl font-light opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    Architecture
+  </div>
+  <div class="absolute top-4 right-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+    <img src="assets/images/real-cross.svg" alt="Plus" class="w-6 h-6 text-white" />
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
