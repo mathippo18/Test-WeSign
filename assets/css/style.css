@@ -31,3 +31,26 @@ body {
 
 a {color : #D2B48C;
    text-decoration: underline;}
+
+   @font-face {
+    font-family: 'Fragments';
+    font-weight: 400;
+    src: url(‘assets/fonts/PPFragment-GlareRegularItalic.woff2’) format(‘woff2’),
+      url(‘assets/fonts/PPFragment-GlareRegularItalic.ttf’) format(‘truetype’)
+  }
+  montreal-medium {
+    font-family: 'montreal';
+    font-weight: 700;
+    src: url(‘assets/fonts/montreal-medium.woff2’) format(‘woff2’),
+      url(‘assets/fonts/montreal-medium.ttf’) format(‘truetype’)
+  }
+
+  em{
+    font-family: 'Fragments';
+    font-weight: 700;
+  }
+
+  p{
+    font-family: "montreal";
+    font-weight: 700;
+  }
